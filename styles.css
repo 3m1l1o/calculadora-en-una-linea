@@ -1,3 +1,5 @@
+
+
 #appBg{
     height: 420px;
     width: 300px;
@@ -7,10 +9,38 @@
 #appBg form{
     height: 100%;
     width: 100%;
+    margin-left: 170%;
     background-color: rgb(0,0,0);
 }
 #appBg input[type=textfield]{
-    width: 97%;
+    height: 25%;
+    width: 90%;
     cursor: default;
     font-family: 'roboto', sans-serif;
+    background-color: rgb(0,0,0);
+    color: white;
+    padding: 15px;
+    text-align: right;
+    font-size: 50px;
+    border: 0;
+    outline: none;
+}
+#appBg input[type=button], input[type=reset]{
+    width: 22%;
+    cursor: pointer;
+    font-family: 'roboto',Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    color: black;
+    padding: 18px;
+    margin: 3px;
+    border: 0;
+    border-radius: 100%;
+}
+#appBg .orange{
+    background-color: orange !important;
+    color: white !important;
+}
+#appBg .gray{
+    background-color: gray !important;
+    color: white !important;
 }
